@@ -13,7 +13,7 @@ Path.SUB_DIR = os.path.join(WORKSPACE, 'submissions')
 
 Path.TRAIN_CURATED_META = os.path.join(Path.DATA_DIR, 'train_curated.csv')
 Path.NOISY_META = os.path.join(Path.DATA_DIR, 'train_noisy.csv')
-Path.NOISY_PESUDO_META = os.path.join(Path.DATA_DIR, 'noisy_pesudo_labeled.csv')
+Path.NOISY_PESUDO_META = os.path.join(Path.DATA_DIR, 'train_noisy_pesudo.csv')
 Path.FOCUS_PESUDO_META = os.path.join(Path.DATA_DIR, 'focus_pesudo_labeled.csv')
 Path.SUB = os.path.join(Path.DATA_DIR, 'sample_submission.csv')
 
