@@ -274,7 +274,7 @@ for fold in range(Setting.CV_FOLDS):
 
     for epoch in range(MAX_ITERATIONS):
         model.train()
-        for idx, ((x1, y1), (x2, y2)) in enumerate(zip(focus_dl, train_dl, pesudo_dl)):
+        for idx, ((x1, y1), (x2, y2), (x3, y3)) in enumerate(zip(focus_dl, train_dl, pesudo_dl)):
             optimizer.zero_grad()
             x1, y1 = x1.float().cuda(), y1.float().cuda()
             x2, y2 = x2.float().cuda(), y2.float().cuda()
